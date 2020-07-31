@@ -11,6 +11,7 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("ngSight-Secrets")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("ngSight")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

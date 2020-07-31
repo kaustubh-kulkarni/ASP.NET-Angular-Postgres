@@ -10,13 +10,17 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using ngSight.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace ngSight
 {
     public class Startup
     {
+        private string _connectionString = null;
         public Startup(IConfiguration configuration)
         {
+           
             Configuration = configuration;
         }
 
@@ -25,7 +29,9 @@ namespace ngSight
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            _connectionString = Configuration["secretConnectionString"];
             services.AddControllers();
+            services.AddEntityFrameworkNpgsql().AddDbContext<ApiContext>(opt => opt.UseNpgsql(_connectionString));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
