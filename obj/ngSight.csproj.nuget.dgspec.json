@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ngSight\\ngSight.csproj": {}
+    "d:\\ngSight\\ngSight.csproj": {}
   },
   "projects": {
-    "D:\\ngSight\\ngSight.csproj": {
+    "d:\\ngSight\\ngSight.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ngSight\\ngSight.csproj",
+        "projectUniqueName": "d:\\ngSight\\ngSight.csproj",
         "projectName": "ngSight",
-        "projectPath": "D:\\ngSight\\ngSight.csproj",
+        "projectPath": "d:\\ngSight\\ngSight.csproj",
         "packagesPath": "C:\\Users\\HellBoy\\.nuget\\packages\\",
-        "outputPath": "D:\\ngSight\\obj\\",
+        "outputPath": "d:\\ngSight\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HellBoy\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -37,6 +37,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
