@@ -42,7 +42,6 @@ namespace ngSight
             {
                 app.UseDeveloperExceptionPage();
             }
-            
             seed.SeedData(20, 1000);
 
             app.UseHttpsRedirection();
