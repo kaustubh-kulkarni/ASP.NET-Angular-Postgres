@@ -1,7 +1,5 @@
-D:\ngSight\bin\Debug\netcoreapp3.1\angular.json
 D:\ngSight\bin\Debug\netcoreapp3.1\appsettings.Development.json
 D:\ngSight\bin\Debug\netcoreapp3.1\appsettings.json
-D:\ngSight\bin\Debug\netcoreapp3.1\e2e\tsconfig.json
 D:\ngSight\bin\Debug\netcoreapp3.1\ngSight\angular.json
 D:\ngSight\bin\Debug\netcoreapp3.1\ngSight\e2e\tsconfig.json
 D:\ngSight\bin\Debug\netcoreapp3.1\ngSight\package-lock.json
@@ -11,14 +9,7 @@ D:\ngSight\bin\Debug\netcoreapp3.1\ngSight\tsconfig.base.json
 D:\ngSight\bin\Debug\netcoreapp3.1\ngSight\tsconfig.json
 D:\ngSight\bin\Debug\netcoreapp3.1\ngSight\tsconfig.spec.json
 D:\ngSight\bin\Debug\netcoreapp3.1\ngSight\tslint.json
-D:\ngSight\bin\Debug\netcoreapp3.1\package-lock.json
-D:\ngSight\bin\Debug\netcoreapp3.1\package.json
 D:\ngSight\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
-D:\ngSight\bin\Debug\netcoreapp3.1\tsconfig.app.json
-D:\ngSight\bin\Debug\netcoreapp3.1\tsconfig.base.json
-D:\ngSight\bin\Debug\netcoreapp3.1\tsconfig.json
-D:\ngSight\bin\Debug\netcoreapp3.1\tsconfig.spec.json
-D:\ngSight\bin\Debug\netcoreapp3.1\tslint.json
 D:\ngSight\bin\Debug\netcoreapp3.1\ngSight.exe
 D:\ngSight\bin\Debug\netcoreapp3.1\ngSight.deps.json
 D:\ngSight\bin\Debug\netcoreapp3.1\ngSight.runtimeconfig.json
@@ -58,3 +49,6 @@ D:\ngSight\obj\Debug\netcoreapp3.1\staticwebassets\ngSight.StaticWebAssets.xml
 D:\ngSight\obj\Debug\netcoreapp3.1\ngSight.dll
 D:\ngSight\obj\Debug\netcoreapp3.1\ngSight.pdb
 D:\ngSight\obj\Debug\netcoreapp3.1\ngSight.genruntimeconfig.cache
+D:\ngSight\bin\Debug\netcoreapp3.1\ngSight\appsettings.Development.json
+D:\ngSight\bin\Debug\netcoreapp3.1\ngSight\appsettings.json
+D:\ngSight\bin\Debug\netcoreapp3.1\ngSight\Properties\launchSettings.json
