@@ -6,7 +6,7 @@ using ngSight.Models;
 
 namespace ngSight.Controllers
 {
-    [Route("api/[controller")]
+    [Route("api/[controller]")]
     public class OrderController: Controller
     {
         private readonly ApiContext _ctx;
@@ -61,7 +61,7 @@ namespace ngSight.Controllers
             return Ok(groupedResult);
         }
 
-        [HttpGet("GetOrder/{}", Name="GetOrder")]
+        [HttpGet("GetOrder/{id}", Name="GetOrder")]
         public IActionResult GetOrder(int id)
         {
             var order = _ctx.Orders.Include(o => o.Customer).First(o => o.Id == id);
